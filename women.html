@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta  name="description" content=""/> 
     <meta  name="keywords" content=""/>     
- 
+
     <link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-touch-icon.png"> 
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicons/favicon-32x32.png"> 
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png"> 
@@ -16,12 +16,12 @@
     <meta name="msapplication-TileColor" content="#ffffff"> 
     <meta name="msapplication-TileImage" content="/mstile-144x144.png"> 
     <meta name="theme-color" content="#ffffff">
-    <title>Horrors of Innocent - Women</title>
+    <title>Horrors of Innocent - Pain of Women</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 <body>
 
- 
+
     <!-- Header -->
     <header class="header">
         <div class="container">
@@ -37,10 +37,9 @@
                 </div>
 
                 <nav class="nav" id="nav">
-                    <a class="nav__link" href="#">hostilities</a>
-                    <a class="nav__link" href="#">women</a>
-                    <a class="nav__link" href="#">about us</a>
-                    <a class="nav__link  nav__link--btn" href="#" data-modal="#modal_hire_me">contact us</a>
+                    <a class="nav__link" href="index.html">main page</a>
+                    <a class="nav__link" href="stories.html">hostilities</a>
+                    <a class="nav__link  nav__link--btn" href="aboutus.html">about us</a>
                 </nav>
 
                 <button class="burger" type="button" id="navToggle">
@@ -52,362 +51,180 @@
 
 
 
-    <!-- About -->
-    <section class="about">
+    <!-- Intro -->
+    <section class="intro">
         <div class="container">
 
-            <div class="about__inner">
-                <div class="about__photo">
-                    <img class="img" src="images/designer_photo.png" alt="">
+            <div class="intro__inner">
+                <div class="intro__content">
+                    <h2 class="intro__subtitle">Horrors of Innocent</h2>
+                    <h1 class="intro__title">Pain of Women</h1>
+
+                    <div class="social">
+                        <a style="margin-top: 20px" class="social__link" href="https://discord.gg/bdnT5EgJ">
+                            <img src="images/discoord.png" alt="">
+                        </a>
+                    </div>
+                    <a class="btn" href="index.html">MAIN PAGE</a>
+                    <a class="btn" href="stories.html">HOSTILITES</a>
                 </div>
 
-                <div class="about__content">
-                    <h3 class="about__title">women</h3>
-                    <h2 class="about__bigtitle">unnoticed suffering</h2>
-                    <div class="about__text">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste a dolores consectetur provident ratione quo reiciendis, eligendi aliquid error ab ducimus fugit, quia perferendis id laboriosam animi eos excepturi sint.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste a dolores consectetur provident ratione quo reiciendis, eligendi aliquid error ab ducimus fugit, quia perferendis id laboriosam animi eos excepturi sint.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste a dolores consectetur provident ratione quo reiciendis, eligendi aliquid error ab ducimus fugit, quia perferendis id laboriosam animi eos excepturi sint.</p>
-                    </div>
-                    <a class="btn" href="#">HIRE ME</a>
-                    <button class="btn" type="button">SEE MY RESUME</button>
-                </div><!-- /.about__content -->
-            </div><!-- /.about__inner -->
+            </div><!-- /.intro__inner -->
 
         </div><!-- /.container -->
     </section>
 
 
-    <!-- Footer -->
-    <footer class="footer">
+
+    <!-- Works -->
+    <div class="works">
         <div class="container">
 
-            <div class="footer__inner">
-                <div class="footer__credits">
-                    <div class="footer__copyright">
-                        &copy; 2018 UI43 - Free Templates
-                    </div>
-
-                    <div class="footer__social">
-                        <a href="#" target="_blank">
-                            <img src="images/behance-gray.svg" width="24" alt="">
-                        </a>
-                        <a href="#" target="_blank">
-                            <img src="images/dribbble-gray.svg" width="18" alt="">
-                        </a>
-                        <a href="#" target="_blank">
-                            <img src="images/linkedin-gray.svg" width="18" alt="">
-                        </a>
-                        <a href="#" target="_blank">
-                            <img src="images/fb-gray.svg" height="18" alt="">
-                        </a>
-                        <a href="#" target="_blank">
-                            <img src="images/instagram-gray.svg" width="18" alt="">
-                        </a>
-                        <a href="#" target="_blank">
-                            <img src="images/twitter-gray.svg" width="20" alt="">
-                        </a>
-                    </div>
-                </div><!-- /.footer__credits -->
-
-                <nav class="footer__nav">
-                    <a class="footer__nav-link" href="#">Work</a>
-                    <a class="footer__nav-link" href="#">About me</a>
-                    <a class="footer__nav-link" href="#">Blog</a>
-                    <a class="footer__nav-link" href="#">Contact</a>
-                    <a class="footer__nav-link  footer__nav-link--btn" href="#">Hire me</a>
-                </nav>
-            </div><!-- /.footer__inner -->
-
-        </div><!-- /.container -->
-    </footer>
-
-
-
-
-
-    <!-- Modals -->
-    <div class="modal" id="modal_project_1">
-        <div class="modal__dialog">
-
-            <button class="modal__close" type="button" data-close>
-                <img src="images/modal-close.svg" alt="Close">
-            </button>
-
-            <div class="modal-work">
-                <div class="modal-work__preview">
-                    <div data-slider="slick">
-                        <div>
-                            <img class="modal-work__photo" src="https://placehold.it/790x780" alt="">
+            <div class="portfolio__col" data-cat="website">
+                <div class="work" data-modal="#modal_project_2">
+                    <img class="work__image" src="images/index-images/afgmentalhealth.jpg" alt="">
+                    <div class="work__content">
+                        <div class="work__cat">200+ words</div>
+                        <div class="work__title">
+                            War affects women in various ways, both directly and indirectly. Some of the common impacts include:
                         </div>
-                        <div>
-                            <img class="modal-work__photo" src="https://placehold.it/790x780/333" alt="">
+                        <br>
+                        <div style="font-size: 18px" class="work__cat">
+                            1. Physical and sexual violence: Women often become targets of physical and sexual violence during times of war. They may experience rape, forced prostitution, sexual slavery, and other forms of abuse.
+                            <br>
+                            <br>
+                            2. Displacement and refugee crisis: Women and children constitute the majority of displaced populations during conflicts. They may have to flee their homes and become refugees, facing challenges such as lack of shelter, food, healthcare, and safety.
+                            <br>
+                            <br>
+                            3. Loss of family and loved ones: Women often suffer the loss of family members, including husbands, fathers, sons, and brothers, who may be killed or forcibly conscripted into armed groups.
+                            <br>
+                            <br>
+                            4. Psychological trauma: Women are susceptible to psychological trauma as a result of witnessing or experiencing violence, displacement, and the loss of loved ones. They may suffer from post-traumatic stress disorder (PTSD), depression, anxiety, and other mental health issues.
+                            <br>
+                            <br>
+                            5. Economic hardships: During war, women often lose their livelihoods and economic independence. They may face challenges in finding employment or accessing resources, which can lead to poverty and inequality.
+                            <br>
+                            <br>
+                            6. Limited access to healthcare: Women's access to healthcare, including reproductive and maternal healthcare, may be severely disrupted during conflicts, leading to increased risks of complications in pregnancy, childbirth, and limited access to essential medical services.
+                            <br>
+                            <br>
+                            7. Disruption of education: Conflict disrupts education systems, and girls often face barriers in accessing education during and after war. This lack of education limits their opportunities for personal and economic development.
+                            <br>
+                            <br>
+                            8. Involvement in armed conflict: Women may be forced to join armed groups, either voluntarily or involuntarily, as combatants, spies, or support staff. This exposes them to further risks and violence. 
+                            <br>
                         </div>
                     </div>
                 </div>
-                <div class="modal-work__content">
+            </div>
 
-                    <div class="modal-work__header">
-                        <h3 class="modal-work__title">Project title</h3>
-                        <div class="modal-work__info">
-                            category <span class="modal-work__info-divider">|</span> 2018
-                        </div>
-                    </div>
-
-                    <div class="modal-work__client">
-                        <div class="modal-work__client-title">Client:</div>
-                        <div class="modal-work__client-company">Creative Agency</div>
-                    </div>
-
-                    <div class="modal-work__text">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur dicta, recusandae debitis iusto quos voluptatum at. Dolorum a, velit rerum dicta aut sapiente, optio accusantium? Sunt sed praesentium est minima.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur dicta, recusandae debitis iusto quos voluptatum at. Dolorum a, velit rerum dicta aut sapiente, optio accusantium? Sunt sed praesentium est minima.</p>
-                    </div>
-
-                    <div class="modal-work__footer">
-                        <button class="modal-work__btn slickPrev" type="button">
-                            <img src="images/back.svg" height="11" alt="">
-                            Previous
-                        </button>
-                        <button class="modal-work__btn slickNext" type="button">
-                            Next
-                            <img src="images/next.svg" height="11" alt="">
-                        </button>
-                    </div>
-
-                </div><!-- /.modal-work__content -->
-            </div><!--/.modal-work -->
-
-        </div><!-- /.modal__dialog -->
-    </div><!-- /.modal -->
-
-
-    <div class="modal" id="modal_project_2">
-        <div class="modal__dialog">
-
-            <button class="modal__close" type="button" data-close>
-                <img src="images/modal-close.svg" alt="Close">
-            </button>
-
-            <div class="modal-work">
-                <div class="modal-work__preview">
-                    <div data-slider="slick">
-                        <div>
-                            <img class="modal-work__photo" src="https://placehold.it/790x780" alt="">
-                        </div>
-                        <div>
-                            <img class="modal-work__photo" src="https://placehold.it/790x780/333" alt="">
-                        </div>
+            <div class="portfolio__col" data-cat="website">
+                <div class="work" data-modal="#modal_project_2">
+                    <img class="work__image" src="images/index-images/afgmentalhealth.jpg" alt="">
+                    <div class="work__content">
+                        <div class="work__cat">30+ words</div>
+                        <div class="work__title">
+                           Unnoticed
+                       </div>
+                       <br>
+                       <div style="font-size: 18px" class="work__cat">
+                        It is important to note that women also play essential roles as peacemakers, activists, and advocates for peace and reconciliation in conflict-affected areas. However, their contributions are often overlooked or undermined.
+                        <br>
                     </div>
                 </div>
-                <div class="modal-work__content">
+            </div>
+        </div>
 
-                    <div class="modal-work__header">
-                        <h3 class="modal-work__title">Project title 2</h3>
-                        <div class="modal-work__info">
-                            category <span class="modal-work__info-divider">|</span> 2018
-                        </div>
+        <div class="portfolio__col" data-cat="website">
+            <div class="work" data-modal="#modal_project_2">
+                <img class="work__image" src="images/index-images/afgmentalhealth.jpg" alt="">
+                <div class="work__content">
+                    <div class="work__cat">30+ words</div>
+                    <div class="work__title">
+                        Conflict disrupts societies and individual families; violence against women proliferates 
                     </div>
-
-                    <div class="modal-work__client">
-                        <div class="modal-work__client-title">Client:</div>
-                        <div class="modal-work__client-company">Creative Agency</div>
+                    <br>
+                    <div style="font-size: 18px" class="work__cat">
+                        in such circumstances. Though war is perceived as a male activity—and indeed those involved in militaristic actions are overwhelmingly men—it is largely civilian women and children who bear the costs in the many civil wars of our time.  Bosnian War affected women intensely and disastrously. In addition to the complications of caring for a family during wartime, women there faced displacement from home, separation from loved ones, and extreme abuse, including rape, torture, and death. According to the statistics by Intereconomics, approximately half of the displaced Bosnians women fled to Serbia, Montenegro and Croatia. The vast majority of the other half, consisting largely of Muslim Bosniaks, fled to Western European countries. 
+                        <br>
+                        <br>
+                        The flight and forced migration of refugees during the war took place under a wide range of conditions, from women fleeing with their families to women being kid- napped by rebel forces. And the journeys themselves have a remarkable variety of dangers, from robbers preying upon the travelers to landmines blowing them up. Women who escape from their homes, communities, and their countries face hardships beyond their control, especially during times of conflict. 
+                        <br>
+                        <br>
+                        - “We headed for the unknown, overwhelmed by fear,” recalls a woman from Sarajevo, Bosnia, of her flight.  
+                        <br>
+                        <br>
+                        - “We passed through the part of the city where all the houses were burned, destroyed, and deserted. I left behind all the comfort I had, which I experienced as major violence,” recalls another woman from Tuzla, Bosnia. 
+                        <br>
+                        <br>
+                        On the road, women were forced to trade sex for food, suste- nance, or protection. Woman, who survived the war that began in 1992 states, “Our bodies were exchanged for food. The rebels were in charge of all the food in the country at that time. Some women that had pride, high esteem, they would rather die from hunger. But if you wanted to live, you had to have some connection with a rebel.”  
+                        <br>
+                        <br>
+                        Forced migration affects everyone, but for most of the world’s women, the home is the most important place in the world, providing shelter, a space to nurture children, possible respite from violence in the streets, and, for some women, their only locus of social activities. Thus, women may be dis-proportionately affected psychologically and physically by being forced out of their homes and having those dwellings destroyed.
+                        <br>
                     </div>
-
-                    <div class="modal-work__text">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur dicta, recusandae debitis iusto quos voluptatum at. Dolorum a, velit rerum dicta aut sapiente, optio accusantium? Sunt sed praesentium est minima.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur dicta, recusandae debitis iusto quos voluptatum at. Dolorum a, velit rerum dicta aut sapiente, optio accusantium? Sunt sed praesentium est minima.</p>
-                    </div>
-
-                    <div class="modal-work__footer">
-                        <button class="modal-work__btn slickPrev" type="button">
-                            <img src="images/back.svg" height="11" alt="">
-                            Previous
-                        </button>
-                        <button class="modal-work__btn slickNext" type="button">
-                            Next
-                            <img src="images/next.svg" height="11" alt="">
-                        </button>
-                    </div>
-
-                </div><!-- /.modal-work__content -->
-            </div><!--/.modal-work -->
-
-        </div><!-- /.modal__dialog -->
-    </div><!-- /.modal -->
+                </div>
+            </div>
+        </div>
+    </div><!-- /.portfolio -->
 
 
-    <div class="modal" id="modal_resume">
-        <div class="modal__dialog">
+</div><!-- /.container -->
+</div><!-- /.works -->
 
-            <button class="modal__close" type="button" data-close>
-                <img src="images/modal-close.svg" alt="Close">
-            </button>
 
-            <div class="modal__content">
-                <h3 class="modal__title  text-center">RESUME</h3>
 
-                <div class="text-center">
-                    <a class="btn btn--thin" href="#">DOWNLOAD PDF</a>
-                    <a class="btn btn--thin" href="#">PRINT</a>
+<!-- About -->
+<section class="about">
+    <div class="container">
+
+        <div class="about__inner">
+            <div class="about__content">
+                <h3 class="about__title">war is</h3>
+                <h2 class="about__bigtitle">HELL</h2>
+                <div style="font-size: 18px" class="about__text">
+                    <p>"Violence against women can end only when the culprits get punished." - Mukhtar Ma'i</p>
+                    <p>"Violence against women is perhaps the most shameful human rights violation, and it is perhaps the most pervasive. It knows no boundaries of geography, culture or wealth. As long as it continues, we cannot claim to be making real progress towards equality, development and peace." - Kofi Annan</p>
+                    <p>"There is one universal truth, applicable to all countries, cultures and communities: violence against women is never acceptable, never excusable, never tolerable."- Ban Ki-moon</p>
+                </div>
+                <a class="btn" href="index.html">MAIN PAGE</a>
+                <a class="btn" href="stories.html">HOSTILITES</a>
+            </div><!-- /.about__content -->
+        </div><!-- /.about__inner -->
+
+    </div><!-- /.container -->
+</section>
+
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+
+        <div class="footer__inner">
+            <div class="footer__credits">
+                <div class="footer__copyright">
+                    &copy; Horrors of Innocent
                 </div>
 
-                <div class="timeline">
-                    <div class="timeline__col  timeline__col--left">
-                        <h4 class="timeline__title">EXPERIENCE</h4>
+            </div><!-- /.footer__credits -->
 
-                        <div class="timeline__item">
-                            <time class="timeline__date" datetime="11-21-2019">2017 - <b>Present</b></time>
-                            <h5 class="timeline__subtitle">Freelancer</h5>
-                            <div class="timeline__position">Art Director</div>
-                            <div class="timeline__text">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis debitis autem aspernatur sed iusto maiores nihil magni provident dolore, animi nemo est corporis in facilis eum quae sint aliquam, ipsam?</p>
-                            </div>
-                        </div>
+            <nav class="footer__nav">
+                <a class="footer__nav-link" href="index.html">Main Page</a>
+                <a class="footer__nav-link" href="stories.html">Hostilites</a>
+                <a class="footer__nav-link" href="aboutus.html">About us</a>
+            </nav>
+        </div><!-- /.footer__inner -->
 
-                        <div class="timeline__item">
-                            <time class="timeline__date" datetime="11-21-2019">2017 - <b>Present</b></time>
-                            <h5 class="timeline__subtitle">Freelancer</h5>
-                            <div class="timeline__position">Art Director</div>
-                            <div class="timeline__text">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis debitis autem aspernatur sed iusto maiores nihil magni provident dolore, animi nemo est corporis in facilis eum quae sint aliquam, ipsam?</p>
-                            </div>
-                        </div>
-
-                        <div class="timeline__item">
-                            <time class="timeline__date" datetime="11-21-2019">2017 - <b>Present</b></time>
-                            <h5 class="timeline__subtitle">Freelancer</h5>
-                            <div class="timeline__position">Art Director</div>
-                            <div class="timeline__text">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis debitis autem aspernatur sed iusto maiores nihil magni provident dolore, animi nemo est corporis in facilis eum quae sint aliquam, ipsam?</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="timeline__col  timeline__col--right">
-                        <h4 class="timeline__title">EDUCATION</h4>
-
-                        <div class="timeline__item">
-                            <time class="timeline__date" datetime="11-21-2019">2005 - 2010</time>
-                            <h5 class="timeline__subtitle">UI/UX Design</h5>
-                            <div class="timeline__position">LA University, USA</div>
-                        </div>
-
-                        <div class="timeline__item">
-                            <time class="timeline__date" datetime="11-21-2019">2005 - 2010</time>
-                            <h5 class="timeline__subtitle">UI/UX Design</h5>
-                            <div class="timeline__position">LA University, USA</div>
-                        </div>
-
-                        <h4 class="timeline__title">Skills</h4>
-                        <div class="progress-bar">
-                            <div class="progress-bar__item">
-                                <div class="progress-bar__left">
-                                    <div class="progress-bar__title">UI/UX Design</div>
-                                </div>
-                                <div class="progress-bar__right">
-                                    <div class="progress-bar__bar">
-                                        <div class="progress-bar__progress" style="width: 50%;"></div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="progress-bar__item">
-                                <div class="progress-bar__left">
-                                    <div class="progress-bar__title">UI/UX Design</div>
-                                </div>
-                                <div class="progress-bar__right">
-                                    <div class="progress-bar__bar">
-                                        <div class="progress-bar__progress" style="width: 90%;"></div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="progress-bar__item">
-                                <div class="progress-bar__left">
-                                    <div class="progress-bar__title">UI/UX Design</div>
-                                </div>
-                                <div class="progress-bar__right">
-                                    <div class="progress-bar__bar">
-                                        <div class="progress-bar__progress" style="width: 80%;"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!-- /.progress-bar -->
-
-                        <h4 class="timeline__title">Awards</h4>
-
-                        <div class="timeline__item">
-                            <time class="timeline__date" datetime="11-21-2019">2010</time>
-                            <h5 class="timeline__subtitle">UI/UX Design</h5>
-                            <div class="timeline__position">LA University, USA</div>
-                            <div class="timeline__text">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis debitis autem aspernatur sed iusto maiores nihil magni provident dolore, animi nemo est corporis in facilis eum quae sint aliquam, ipsam?</p>
-                            </div>
-                        </div>
-                    </div><!-- /.timeline__col -->
-
-                </div><!-- /.timeline -->
-
-                <div class="text-center">
-                    <a class="btn" href="#">Hire me</a>
-                </div>
-
-            </div><!-- /.modal__content -->
-
-        </div><!-- /.modal__dialog -->
-    </div><!-- /.modal -->
-
-
-    <div class="modal" id="modal_hire_me">
-        <div class="modal__dialog  modal__dialog--sm">
-
-            <button class="modal__close" type="button" data-close>
-                <img src="images/modal-close.svg" alt="Close">
-            </button>
-
-            <div class="contact">
-                <div class="contact__left">
-                    <h3 class="modal__title mb-0">LET'S TALK!</h3>
-                    <h4 class="modal__subtitle">CALL ME OR SEND ME A REQUEST</h4>
-
-                    <ul class="contact__info">
-                        <li class="contact__info-item">
-                            <img class="contact__info-icon" src="images/phone.svg" alt="">
-                            (200) 100 3000
-                        </li>
-                        <li class="contact__info-item">
-                            <img class="contact__info-icon" src="images/mail.svg" alt="">
-                            designer@ui43.com
-                        </li>
-                    </ul>
-
-                    <form class="form" action="/" method="post">
-                        <div class="form__group">
-                            <label class="form__label" for="input-email">Adress e-mail</label>
-                            <input class="form__input" name="input-email" type="text" id="input-email" placeholder="Adress e-mail">
-                        </div>
-
-                        <div class="form__group">
-                            <label class="form__label" for="input-text">Request</label>
-                            <textarea class="form__textarea" name="input-text" id="input-text" placeholder="Type your request..."></textarea>
-                        </div>
-
-                        <div class="text-right">
-                            <button class="btn" type="submit">SEND</button>
-                        </div>
-                    </form>
-                </div><!-- /.contact__left -->
-            </div><!-- /.contact -->
-
-        </div><!-- /.modal__dialog -->
-    </div><!-- /.modal -->
+    </div><!-- /.container -->
+</footer>
 
 
 
-    <!-- JS -->
-    <script src="js/slick.min.js"></script>
-    <script src="js/app.js"></script>
+
+
+<!-- JS -->
+<script src="js/slick.min.js"></script>
+<script src="js/app.js"></script>
 
 </body>
 </html>
