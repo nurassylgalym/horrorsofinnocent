@@ -4,24 +4,27 @@
     <meta charset="UTF-8">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,300i,400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta  name="description" content=""/> 
-    <meta  name="keywords" content=""/>     
- 
-    <link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-touch-icon.png"> 
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicons/favicon-32x32.png"> 
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png"> 
-    <link rel="manifest" href="images/favicons/site.webmanifest"> 
-    <link rel="mask-icon" href="images/favicons/safari-pinned-tab.svg" color="#5bbad5"> 
-    <meta name="msapplication-TileColor" content="#ffffff"> 
-    <meta name="msapplication-TileImage" content="/mstile-144x144.png"> 
+    <meta  name="description" content=""/>
+    <meta  name="keywords" content=""/>    
+
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="images/favicons/site.webmanifest">
+    <link rel="mask-icon" href="images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    <title>Horrors of Innocent - About us</title>
+
+    <title>Horrors of Innocent - About Us</title>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 <body>
 
- 
+
     <!-- Header -->
     <header class="header">
         <div class="container">
@@ -37,9 +40,8 @@
                 </div>
 
                 <nav class="nav" id="nav">
-                    <a class="nav__link" href="index.html">hostilities</a>
+                    <a class="nav__link" href="stories.html">hostilities</a>
                     <a class="nav__link" href="women.html">women</a>
-                    <a class="nav__link" href="aboutus.html">about us</a>
                 </nav>
 
                 <button class="burger" type="button" id="navToggle">
@@ -51,343 +53,426 @@
 
 
 
-    <!-- About -->
-    <section class="about">
+    <!-- Intro -->
+    <section class="intro">
         <div class="container">
 
-            <div class="about__inner">
-                <div class="about__photo">
-                    <img class="img" src="images/designer_photo.png" alt="">
+            <div class="intro__inner">
+                <div class="intro__content">
+                    <h2 class="intro__subtitle">Horrors of Innocent</h2>
+                    <h1 class="intro__title">About Us</h1>
+                    <div class="intro__text">Team Members</div>
+
+                    <div class="social">
+                        <a class="social__link" href="https://discord.gg/bdnT5EgJ">
+                            <img src="images/discoord.png" alt="">
+                        </a>
+                    </div>
+                    <a class="btn" href="index.html">MAIN PAGE</a>
+                    <a class="btn" href="women.html">PAIN OF WOMEN</a>
                 </div>
 
-                <div class="about__content">
-                    <h3 class="about__title">about us</h3>
-                    <h2 class="about__bigtitle">WHO WE ARE</h2>
-                    <div class="about__text">
-                        <p>We are a group of creative teenagers from the CIS countries (Kazakhstan, Ukraine, Russia). We are ordinary schoolchildren and students who want to prove to the world that wars only lead to chaos, which inevitably creates pain and suffering.</p>
-                        <p>We are freedom-loving people who are not indifferent to the lives of other people, even if we do not know them.</p>
-                        <p>Galym Nurassyl, Tursyn Ayaulym, Zorikova Viktoria, Bokenbay Zhanbota, Bazarbayeva Malika, Ayazhan Karabek, Yskak Aizere, .</p>
-                    </div>
-                    <a class="btn" href="#">CONTACT US</a>
-                </div><!-- /.about__content -->
-            </div><!-- /.about__inner -->
+            </div><!-- /.intro__inner -->
 
         </div><!-- /.container -->
     </section>
 
-    <!-- Footer -->
-    <footer class="footer">
+
+
+    <!-- Works -->
+    <div class="works">
         <div class="container">
+            <div class="portfolio" id="portfolio">
 
-            <div class="footer__inner">
-                <div class="footer__credits">
-                    <div class="footer__copyright">
-                        &copy; Horrors of Innocent
-                    </div>
+                <!-- 1 Ablash Nurbakyt  -->
 
-                    <div class="footer__social">
-                        <a class="social__link" href="https://discord.gg/bdnT5EgJ">
-                            <img src="images/disaq.png" alt="">
+                <div class="portfolio__col" data-cat="website">
+                    <div class="work" data-modal="#modal_project_2">
+                        <a href="bosniaandherzegovina.html">
+                            <img style="" class="work__image" src="images/beauty/1.jpg" alt="">
                         </a>
-                    </div>
-                </div><!-- /.footer__credits -->
-
-                <nav class="footer__nav">
-                    <a class="footer__nav-link" href="#">Hostilities</a>
-                    <a class="footer__nav-link" href="#">Women</a>
-                    <a class="footer__nav-link" href="#">About us</a>
-                </nav>
-            </div><!-- /.footer__inner -->
-
-        </div><!-- /.container -->
-    </footer>
-
-
-
-
-
-    <!-- Modals -->
-    <div class="modal" id="modal_project_1">
-        <div class="modal__dialog">
-
-            <button class="modal__close" type="button" data-close>
-                <img src="images/modal-close.svg" alt="Close">
-            </button>
-
-            <div class="modal-work">
-                <div class="modal-work__preview">
-                    <div data-slider="slick">
-                        <div>
-                            <img class="modal-work__photo" src="https://placehold.it/790x780" alt="">
-                        </div>
-                        <div>
-                            <img class="modal-work__photo" src="https://placehold.it/790x780/333" alt="">
+                        <div class="work__content">
+                            <div class="work__cat">
+                                16 years old
+                                <br>
+                                Shymkent, Kazakhstan
+                                <br>
+                                Copywriter
+                                <br>
+                                "Opposite the Statue of Liberty - should be located a Statue of Responsibility"
+                                <br> 
+                                nurbakit11111@gmail.com
+                            </div>
+                            <div class="work__title">
+                                Ablash Nurbakyt
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="modal-work__content">
 
-                    <div class="modal-work__header">
-                        <h3 class="modal-work__title">Project title</h3>
-                        <div class="modal-work__info">
-                            category <span class="modal-work__info-divider">|</span> 2018
-                        </div>
-                    </div>
-
-                    <div class="modal-work__client">
-                        <div class="modal-work__client-title">Client:</div>
-                        <div class="modal-work__client-company">Creative Agency</div>
-                    </div>
-
-                    <div class="modal-work__text">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur dicta, recusandae debitis iusto quos voluptatum at. Dolorum a, velit rerum dicta aut sapiente, optio accusantium? Sunt sed praesentium est minima.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur dicta, recusandae debitis iusto quos voluptatum at. Dolorum a, velit rerum dicta aut sapiente, optio accusantium? Sunt sed praesentium est minima.</p>
-                    </div>
-
-                    <div class="modal-work__footer">
-                        <button class="modal-work__btn slickPrev" type="button">
-                            <img src="images/back.svg" height="11" alt="">
-                            Previous
-                        </button>
-                        <button class="modal-work__btn slickNext" type="button">
-                            Next
-                            <img src="images/next.svg" height="11" alt="">
-                        </button>
-                    </div>
-
-                </div><!-- /.modal-work__content -->
-            </div><!--/.modal-work -->
-
-        </div><!-- /.modal__dialog -->
-    </div><!-- /.modal -->
+                <!-- 2 Bazarbayeva Malika -->
 
 
-    <div class="modal" id="modal_project_2">
-        <div class="modal__dialog">
-
-            <button class="modal__close" type="button" data-close>
-                <img src="images/modal-close.svg" alt="Close">
-            </button>
-
-            <div class="modal-work">
-                <div class="modal-work__preview">
-                    <div data-slider="slick">
-                        <div>
-                            <img class="modal-work__photo" src="https://placehold.it/790x780" alt="">
-                        </div>
-                        <div>
-                            <img class="modal-work__photo" src="https://placehold.it/790x780/333" alt="">
+                <div class="portfolio__col" data-cat="website">
+                    <div class="work" data-modal="#modal_project_2">
+                        <a href="bosniaandherzegovina.html">
+                            <img style="" class="work__image" src="images/beauty/2.jpg" alt="">
+                        </a>
+                        <div class="work__content">
+                            <div class="work__cat">
+                                16 years old
+                                <br>
+                                Aktobe, Kazakhstan
+                                <br>
+                                Copywriter
+                                <br>
+                                "Blessed with myself"
+                                <br> 
+                                mba_07@list.ru
+                            </div>
+                            <div class="work__title">
+                                Bazarbayeva Malika
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="modal-work__content">
 
-                    <div class="modal-work__header">
-                        <h3 class="modal-work__title">Project title 2</h3>
-                        <div class="modal-work__info">
-                            category <span class="modal-work__info-divider">|</span> 2018
+                <!-- 3 Bokenbay Zhanbota -->
+
+                <div class="portfolio__col" data-cat="website">
+                    <div class="work" data-modal="#modal_project_2">
+                        <a href="bosniaandherzegovina.html">
+                            <img style="" class="work__image" src="images/beauty/3.jpg" alt="">
+                        </a>
+                        <div class="work__content">
+                            <div class="work__cat">
+                                16 years old
+                                <br>
+                                Aktobe, Kazakhstan
+                                <br>
+                                Copywriter
+                                <br>
+                                "Just an ordinary girl who follows her dream"
+                                <br> 
+                                bokenbai_zhanbota@icloud.com 
+                            </div>
+                            <div class="work__title">
+                                Bokenbay Zhanbota
+                            </div>
                         </div>
                     </div>
-
-                    <div class="modal-work__client">
-                        <div class="modal-work__client-title">Client:</div>
-                        <div class="modal-work__client-company">Creative Agency</div>
-                    </div>
-
-                    <div class="modal-work__text">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur dicta, recusandae debitis iusto quos voluptatum at. Dolorum a, velit rerum dicta aut sapiente, optio accusantium? Sunt sed praesentium est minima.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur dicta, recusandae debitis iusto quos voluptatum at. Dolorum a, velit rerum dicta aut sapiente, optio accusantium? Sunt sed praesentium est minima.</p>
-                    </div>
-
-                    <div class="modal-work__footer">
-                        <button class="modal-work__btn slickPrev" type="button">
-                            <img src="images/back.svg" height="11" alt="">
-                            Previous
-                        </button>
-                        <button class="modal-work__btn slickNext" type="button">
-                            Next
-                            <img src="images/next.svg" height="11" alt="">
-                        </button>
-                    </div>
-
-                </div><!-- /.modal-work__content -->
-            </div><!--/.modal-work -->
-
-        </div><!-- /.modal__dialog -->
-    </div><!-- /.modal -->
-
-
-    <div class="modal" id="modal_resume">
-        <div class="modal__dialog">
-
-            <button class="modal__close" type="button" data-close>
-                <img src="images/modal-close.svg" alt="Close">
-            </button>
-
-            <div class="modal__content">
-                <h3 class="modal__title  text-center">RESUME</h3>
-
-                <div class="text-center">
-                    <a class="btn btn--thin" href="#">DOWNLOAD PDF</a>
-                    <a class="btn btn--thin" href="#">PRINT</a>
                 </div>
 
-                <div class="timeline">
-                    <div class="timeline__col  timeline__col--left">
-                        <h4 class="timeline__title">EXPERIENCE</h4>
+                <!-- 4 Galym Nurassyl -->
 
-                        <div class="timeline__item">
-                            <time class="timeline__date" datetime="11-21-2019">2017 - <b>Present</b></time>
-                            <h5 class="timeline__subtitle">Freelancer</h5>
-                            <div class="timeline__position">Art Director</div>
-                            <div class="timeline__text">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis debitis autem aspernatur sed iusto maiores nihil magni provident dolore, animi nemo est corporis in facilis eum quae sint aliquam, ipsam?</p>
+
+                <div class="portfolio__col" data-cat="website">
+                    <div class="work" data-modal="#modal_project_2">
+                        <a href="bosniaandherzegovina.html">
+                            <img style="" class="work__image" src="images/beauty/4.jpg" alt="">
+                        </a>
+                        <div class="work__content">
+                            <div class="work__cat">
+                                17 years old
+                                <br>
+                                Astana, Kazakhstan
+                                <br>
+                                Founder, Web Developer
+                                <br>
+                                "Charming. Skilful. Intelligent. Calm."
+                                <br> 
+                                nurassyleducation@gmail.com              
                             </div>
-                        </div>
-
-                        <div class="timeline__item">
-                            <time class="timeline__date" datetime="11-21-2019">2017 - <b>Present</b></time>
-                            <h5 class="timeline__subtitle">Freelancer</h5>
-                            <div class="timeline__position">Art Director</div>
-                            <div class="timeline__text">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis debitis autem aspernatur sed iusto maiores nihil magni provident dolore, animi nemo est corporis in facilis eum quae sint aliquam, ipsam?</p>
-                            </div>
-                        </div>
-
-                        <div class="timeline__item">
-                            <time class="timeline__date" datetime="11-21-2019">2017 - <b>Present</b></time>
-                            <h5 class="timeline__subtitle">Freelancer</h5>
-                            <div class="timeline__position">Art Director</div>
-                            <div class="timeline__text">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis debitis autem aspernatur sed iusto maiores nihil magni provident dolore, animi nemo est corporis in facilis eum quae sint aliquam, ipsam?</p>
+                            <div class="work__title">
+                                Galym Nurassyl
                             </div>
                         </div>
                     </div>
-
-                    <div class="timeline__col  timeline__col--right">
-                        <h4 class="timeline__title">EDUCATION</h4>
-
-                        <div class="timeline__item">
-                            <time class="timeline__date" datetime="11-21-2019">2005 - 2010</time>
-                            <h5 class="timeline__subtitle">UI/UX Design</h5>
-                            <div class="timeline__position">LA University, USA</div>
-                        </div>
-
-                        <div class="timeline__item">
-                            <time class="timeline__date" datetime="11-21-2019">2005 - 2010</time>
-                            <h5 class="timeline__subtitle">UI/UX Design</h5>
-                            <div class="timeline__position">LA University, USA</div>
-                        </div>
-
-                        <h4 class="timeline__title">Skills</h4>
-                        <div class="progress-bar">
-                            <div class="progress-bar__item">
-                                <div class="progress-bar__left">
-                                    <div class="progress-bar__title">UI/UX Design</div>
-                                </div>
-                                <div class="progress-bar__right">
-                                    <div class="progress-bar__bar">
-                                        <div class="progress-bar__progress" style="width: 50%;"></div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="progress-bar__item">
-                                <div class="progress-bar__left">
-                                    <div class="progress-bar__title">UI/UX Design</div>
-                                </div>
-                                <div class="progress-bar__right">
-                                    <div class="progress-bar__bar">
-                                        <div class="progress-bar__progress" style="width: 90%;"></div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="progress-bar__item">
-                                <div class="progress-bar__left">
-                                    <div class="progress-bar__title">UI/UX Design</div>
-                                </div>
-                                <div class="progress-bar__right">
-                                    <div class="progress-bar__bar">
-                                        <div class="progress-bar__progress" style="width: 80%;"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!-- /.progress-bar -->
-
-                        <h4 class="timeline__title">Awards</h4>
-
-                        <div class="timeline__item">
-                            <time class="timeline__date" datetime="11-21-2019">2010</time>
-                            <h5 class="timeline__subtitle">UI/UX Design</h5>
-                            <div class="timeline__position">LA University, USA</div>
-                            <div class="timeline__text">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis debitis autem aspernatur sed iusto maiores nihil magni provident dolore, animi nemo est corporis in facilis eum quae sint aliquam, ipsam?</p>
-                            </div>
-                        </div>
-                    </div><!-- /.timeline__col -->
-
-                </div><!-- /.timeline -->
-
-                <div class="text-center">
-                    <a class="btn" href="#">Hire me</a>
                 </div>
 
-            </div><!-- /.modal__content -->
+                <!-- 5 Karabek Ayazhan -->
 
-        </div><!-- /.modal__dialog -->
-    </div><!-- /.modal -->
-
-
-    <div class="modal" id="modal_hire_me">
-        <div class="modal__dialog  modal__dialog--sm">
-
-            <button class="modal__close" type="button" data-close>
-                <img src="images/modal-close.svg" alt="Close">
-            </button>
-
-            <div class="contact">
-                <div class="contact__left">
-                    <h3 class="modal__title mb-0">LET'S TALK!</h3>
-                    <h4 class="modal__subtitle">CALL ME OR SEND ME A REQUEST</h4>
-
-                    <ul class="contact__info">
-                        <li class="contact__info-item">
-                            <img class="contact__info-icon" src="images/phone.svg" alt="">
-                            (200) 100 3000
-                        </li>
-                        <li class="contact__info-item">
-                            <img class="contact__info-icon" src="images/mail.svg" alt="">
-                            designer@ui43.com
-                        </li>
-                    </ul>
-
-                    <form class="form" action="/" method="post">
-                        <div class="form__group">
-                            <label class="form__label" for="input-email">Adress e-mail</label>
-                            <input class="form__input" name="input-email" type="text" id="input-email" placeholder="Adress e-mail">
+                <div class="portfolio__col" data-cat="website">
+                    <div class="work" data-modal="#modal_project_2">
+                        <a href="bosniaandherzegovina.html">
+                            <img style="" class="work__image" src="images/beauty/5.jpg" alt="">
+                        </a>
+                        <div class="work__content">
+                            <div class="work__cat">
+                                17 years old
+                                <br>
+                                Astana, Kazakhstan
+                                <br>
+                                Founder, Web Developer
+                                <br>
+                                "Programmer, project manager, researcher."
+                                <br> 
+                                mba_07@list.ru
+                            </div>
+                            <div class="work__title">
+                                Karabek Ayazhan 
+                            </div>
                         </div>
+                    </div>
+                </div>
 
-                        <div class="form__group">
-                            <label class="form__label" for="input-text">Request</label>
-                            <textarea class="form__textarea" name="input-text" id="input-text" placeholder="Type your request..."></textarea>
+                <!-- 6 Kurmanbay Zere -->
+
+
+                <div class="portfolio__col" data-cat="website">
+                    <div class="work" data-modal="#modal_project_2">
+                        <a href="bosniaandherzegovina.html">
+                            <img style="" class="work__image" src="images/beauty/6.jpg" alt="">
+                        </a>
+                        <div class="work__content">
+                            <div class="work__cat">
+                                17 years old
+                                <br>
+                                Almaty, Kazakhstan
+                                <br>
+                                Copywriter
+                                <br>
+                                "I am just a teenage girl, who is trying to fight with the patriarchal social dogma like a girl!"
+                                <br> 
+                                kurmanbajzere4@gmail.com  
+                            </div>
+                            <div class="work__title">
+                                Kurmanbay Zere                          
+                            </div>
                         </div>
+                    </div>
+                </div>
 
-                        <div class="text-right">
-                            <button class="btn" type="submit">SEND</button>
+                <!-- 7 Myltykbay Aruzhan -->
+
+                <div class="portfolio__col" data-cat="website">
+                    <div class="work" data-modal="#modal_project_2">
+                        <a href="bosniaandherzegovina.html">
+                            <img style="" class="work__image" src="images/beauty/7.jpg" alt="">
+                        </a>
+                        <div class="work__content">
+                            <div class="work__cat">
+                                16 years old
+                                <br>
+                                Aktobe, Kazakhstan
+                                <br>
+                                Copywriter
+                                <br>
+                                student of 125 high school (11 grade); founder of news project.
+                                <br> 
+                                myltykbaiaruzhan9@gmail.com
+                            </div>
+                            <div class="work__title">
+                                Myltykbay Aruzhan 
+                            </div>
                         </div>
-                    </form>
-                </div><!-- /.contact__left -->
-            </div><!-- /.contact -->
+                    </div>
+                </div>
 
-        </div><!-- /.modal__dialog -->
-    </div><!-- /.modal -->
+                <!-- 8 Nurjigit Saya -->
+
+                <div class="portfolio__col" data-cat="website">
+                    <div class="work" data-modal="#modal_project_2">
+                        <a href="bosniaandherzegovina.html">
+                            <img style="" class="work__image" src="images/beauty/8.jpg" alt="">
+                        </a>
+                        <div class="work__content">
+                            <div class="work__cat">
+                                16 years old
+                                <br>
+                                Aktobe, Kazakhstan
+                                <br>
+                                Copywriter
+                                <br>
+                                "blessed with myself"
+                                <br> 
+                                mba_07@list.ru
+                            </div>
+                            <div class="work__title">
+                                Nurjigit Saya
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 9 Tursyn Ayaulym -->
+
+                <div class="portfolio__col" data-cat="website">
+                    <div class="work" data-modal="#modal_project_2">
+                        <a href="bosniaandherzegovina.html">
+                            <img style="" class="work__image" src="images/beauty/9.JPG" alt="">
+                        </a>
+                        <div class="work__content">
+                            <div class="work__cat">
+                                17 years old
+                                <br>
+                                Almaty/ Taraz, Kazakhstan
+                                <br>
+                                Founder, Manager
+                                <br>
+                                "Visionary Maverick of bold endeavours"
+                                <br> 
+                                ayatursyn1@gmail.com
+                            </div>
+                            <div class="work__title">
+                                Tursyn Ayaulym
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 10 Yskak Aizere -->
+
+                <div class="portfolio__col" data-cat="website">
+                    <div class="work" data-modal="#modal_project_2">
+                        <a href="bosniaandherzegovina.html">
+                            <img style="" class="work__image" src="images/beauty/10.jpg" alt="">
+                        </a>
+                        <div class="work__content">
+                            <div class="work__cat">
+                                18 years old
+                                <br>
+                                Moscow, Russia
+                                <br>
+                                Copywriter
+                                <br>
+                                "full of bright ideas"
+                                <br> 
+                                yskakaizere@gmail.com
+                            </div>
+                            <div class="work__title">
+                                Yskak Aizere
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 11 Zhenis Zhantore -->
+
+                <div class="portfolio__col" data-cat="website">
+                    <div class="work" data-modal="#modal_project_2">
+                        <a href="bosniaandherzegovina.html">
+                            <img style="" class="work__image" src="images/beauty/11.jpg" alt="">
+                        </a>
+                        <div class="work__content">
+                            <div class="work__cat">
+                                17 years old
+                                <br>
+                                Almaty, Kazakhstan
+                                <br>
+                                Copywriter
+                                <br>
+                                "Ambitious, high-achiever, and reliable."
+                                <br> 
+                                zhantorezhenis628@gmail.com
+                            </div>
+                            <div class="work__title">
+                             Zhenis Zhantore
+                         </div>
+                     </div>
+                 </div>
+             </div>
+
+             <!-- 12 Zorikova Viktoria -->
+
+             <div class="portfolio__col" data-cat="website">
+                <div class="work" data-modal="#modal_project_2">
+                    <a href="bosniaandherzegovina.html">
+                        <img style="" class="work__image" src="images/beauty/12.jpg" alt="">
+                    </a>
+                    <div class="work__content">
+                        <div class="work__cat">
+                            16 years old
+                            <br>
+                            Aktobe, Kazakhstan
+                            <br>
+                            Copywriter
+                            <br>
+                            "blessed with myself"
+                            <br> 
+                            mba_07@list.ru
+                        </div>
+                        <div class="work__title">
+                            Zorikova Viktoria
+                        </div>
+                    </div>
+                </div>
+            </div>
 
 
 
-    <!-- JS -->
-    <script src="js/slick.min.js"></script>
-    <script src="js/app.js"></script>
+        </div><!-- /.portfolio -->
+
+
+    </div><!-- /.container -->
+</div><!-- /.works -->
+
+
+
+<!-- About -->
+<section class="about">
+    <div class="container">
+
+        <div class="about__inner">
+            <div class="about__content">
+                <h3 class="about__title">a few words from the creators</h3>
+                <div class="about__text">
+                    <h2 style="margin-top: 35px">
+                        We are for freedom! For freedom of speech, for freedom of right and choice!
+                        <br>
+                        <br>
+                        You probably have a question, why did a group of ordinary teenagers from the CIS countries suddenly decide to make such a complex website in terms of semantic load? My idea was to show how wars affect the most ordinary people and that they bring with them only chaos, which gives rise to pain, anger and suffering. There are no benefits from wars. Do you think the winner will win a ton of money in reparations? But have you taken into account how many victims were killed? No economic excuse will work as a reason for war. Is it worth tens, hundreds, thousands, tens of thousands, hundreds of thousands and sometimes even a million lives for this?
+                        <br>
+                        <br>
+                        Among these people were fathers and mothers, brothers and sisters, uncles and aunts, grandparents.
+                        <br>
+                        <br>
+                        We, as residents of countries without military conflicts (as of September 2023, Kazakhstan is not at war) do not pay attention to wars in other countries.
+                        <br>
+                        <br>
+                        We greatly underestimate peacetime and freedom. We want to convey through this site that people must value their lives. All the best and peace. Assalamualaikum Warahmatullahi Wabarakatuh!
+                    </h2>
+                    <br>
+                    <h2>- Nurassyl Galym</h2>
+                </div>
+                <a class="btn" href="index.html">MAIN PAGE</a>
+                <a class="btn" href="women.html">PAIN OF WOMEN</a>
+            </div><!-- /.about__content -->
+        </div><!-- /.about__inner -->
+
+    </div><!-- /.container -->
+</section>
+
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+
+        <div class="footer__inner">
+            <div class="footer__credits">
+                <div class="footer__copyright">
+                    &copy; Horrors of Innocent
+                </div>
+
+            </div><!-- /.footer__credits -->
+
+            <nav class="footer__nav">
+                <a class="footer__nav-link" href="stories.html">Hostilities</a>
+                <a class="footer__nav-link" href="women.html">Women</a>
+                <a class="footer__nav-link" href="aboutus.html">About us</a>
+            </nav>
+        </div><!-- /.footer__inner -->
+
+    </div><!-- /.container -->
+</footer>
+
+
+
+
+
+<!-- JS -->
+<script src="js/slick.min.js"></script>
+<script src="js/app.js"></script>
 
 </body>
 </html>
